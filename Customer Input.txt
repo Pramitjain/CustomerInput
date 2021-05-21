@@ -1,0 +1,1461 @@
+https://dqt-customer-dev.azurewebsites.net/graphql/ -- Rahul
+http://dqgraphqlapi.azurewebsites.net/graphql/ --Pramit
+
+https://bk-customer-gql2.azurewebsites.net/playground/
+bk-customer-gql.scm.azurewebsites.net
+
+http://dqt-customer-stage.azurewebsites.net/graphql/
+    
+https://dqt-assetstracker-app.azurewebsites.net/
+
+https://dqt-auth.azurewebsites.net/api/users/UploadFile?CustId=e0c37458-03bb-40f7-138b-08d90869aa55
+https://dqt-auth.azurewebsites.net/api/users/uploadfile?CustId=e0c37458-03bb-40f7-138b-08d90869aa55
+
+http://dqt-customer-api-stage.azurewebsites.net/index.html --Swaggger
+https://www.figma.com/file/4ckuc11rE4L4uT6CeUAIMh/DQTech-New-Wireframes?node-id=0%3A1 --WireFrames
+https://www.figma.com/file/WBh7iKr3xTB4ngSSui4uEx/DQ-Tech-Design -- UI Mock Up
+https://dev.azure.com/dqtech2/DQIntegratedApp/_git/Dqt.Customer
+
+https://code-maze.com/consume-graphql-api-with-asp-net-core/
+
+
+
+https://medium.com/atheros/graphql-quick-tip-how-to-pass-variables-into-a-mutation-in-graphiql-23ecff4add57#:~:text=Variables%20should%20be%20written%20using,the%20object%20with%20the%20variables.&text=I%20use%20passing%20variables%20using,paste%20the%20code%20to%20our%20*.
+
+"DqtClientConStr": "Data Source=BKLAP120;Initial Catalog=dqtdb;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+http://dqt-customer-stage.azurewebsites.net/graphql/
+
+
+https://www.codeproject.com/Articles/1250932/Logging-and-Exception-handling-Versioning-in-ASP-N
+
+https://dqt-web-dev.azurewebsites.net/
+13.68.178.235
+
+https://dev.azure.com/dqtech2/DQIntegratedApp/_git/dqt-gql -- Github Location
+https://smallpdf.com/edit-pdf
+https://hasura.io/docs/latest/graphql/core/databases/postgres/queries/multiple-queries.html
+
+https://dev.to/leoloso/executing-multiple-queries-in-a-single-operation-in-graphql-goe
+
+https://medium.com/weekly-webtips/graphql-multiple-search-filters-and-case-insensitive-search-2dd8b09b1817
+https://csharp-video-tutorials.blogspot.com/2019/01/aspnet-core-tutorial-for-beginners.html
+
+https://learning.postman.com/docs/sending-requests/supported-api-frameworks/graphql/
+
+https://www.c-sharpcorner.com/article/building-api-in-net-core-with-graphql2/
+
+https://github.com/dotnetcurry/Secure-ASP.NET-WebAPI-using-Tokens
+https://csharp-video-tutorials.blogspot.com/2017/06/angular-template-vs-templateurl.html
+https://csharp-video-tutorials.blogspot.com/2019/01/aspnet-core-tutorial-for-beginners.html
+
+//DB Initializer
+https://forums.asp.net/t/2153626.aspx?MVC+Core+2+2+DbInitializer+Seeding+Data+
+
+
+https://volosoft.com/Blog/Building-GraphQL-APIs-with-ASP.NET-Core
+// https://github.com/ChilliCream/graphql-workshop/blob/master/docs/7-subscriptions.md
+Subscription
+
+=============================== GraphQL for .NET - Subscription Transport WebSockets =============================
+https://github.com/graphql-dotnet/server
+
+=== GraphQl Playground =======
+https://www.electronjs.org/apps/graphql-playground
+
+=== GraphQL Online API Testing Link ============
+https://graphqlzero.almansi.me/api
+
+https://www.electronjs.org/apps/graphql-playground#:~:text=GraphQL%20Playground%20uses%20components%20of,Automatic%20schema%20reloading
+
+/// Application Insights
+https://www.c-sharpcorner.com/article/application-insights-in-mvc-core-web-api-core-and-entity-framework-core/
+
+// JWT TOKEN GRAPHQL
+https://www.learmoreseekmore.com/2020/01/dotnet-core-graphql-api-authorization.html
+
+FTP Host Settings publishUrl="ftp://waws-prod-dm1-079.ftp.azurewebsites.windows.net/site/wwwroot" ftpPassiveMode="True" userName="dqt-customer-dev\$dqt-customer-dev" userPWD="Lfkm0XTfiahNSWNPSc0uNrm6lTv9iLBbLse3QgbGinM7vsnJtRis2ckgJWhb" 
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
+
+                int v1;
+                int? v2;
+
+                v2 = 20;
+                v1 = v2 ?? default(int);
+
+
+alter table Location add GeoJson NVARCHAR(MAX)
+
+
+alter table Location drop Column [Latitude]
+
+
+alter table Location drop Column [Longitute]
+
+SELECT        dbo.Region.Id, dbo.Region.Name, dbo.UserProfile.Id AS CreatedById, dbo.UserProfile.DisplayName, UserProfile_1.Id AS UpdatedById, UserProfile_1.DisplayName AS UpdatedByDisplayName
+FROM            dbo.Region LEFT OUTER JOIN
+                         dbo.UserProfile ON dbo.Region.CreatedBy = dbo.UserProfile.Id LEFT OUTER JOIN
+                         dbo.UserProfile AS UserProfile_1 ON dbo.Region.UpdatedBy = UserProfile_1.Id
+
+==========================================================================================================
+
+@DummyUser01
+
+UN -> dqtechdummy
+https://dqt-web-dev.azurewebsites.net/
+==========================================================================================================
+
+
+==========================================================================================================
+
+Azure AD B2C
+Identity Experience Framework
+
+B2C_1A_su_si_aadlinkedClaim
+
+
+Abcd1234!!!
+test201
+pass@123
+
+FTUser001
+==========================================================================================================
+
+=======Get Customer Input ==================
+
+query
+{
+  customers
+  {
+    nodes
+    {
+    name
+    displayName
+    id
+    created
+    mainAddress
+    {
+      address1
+      address2
+    }
+    billingAddress {
+      address2
+      address1
+      city
+      country
+      created
+      createdBy{
+        dateOfBirth
+        email
+        givenName
+      }
+    }
+  }
+  }
+}
+
+=======================Add Customer Input =============
+
+mutation AddCustomer
+{
+addCustomer(input: {
+name: "Milnaa Media",
+displayName: "CA",
+mainPhone:"888-111-1234",
+webSite:"MilnaaMedia.com"
+billingAddress:{
+address1: "Warje Naka",
+address2: "Pune West",
+city: "Pune",
+state: "Maharastra",
+zipCode: "401118",
+country: "India"
+},
+mainAddress:{
+address1: "Hadapsar West",
+address2: "Hinjawadi",
+city: "Malad",
+state: "Maharastra",
+zipCode: "452301",
+country: "India"
+}
+})
+{
+customer
+{
+id
+name
+displayName
+}
+}
+}
+
+
+
+========Update Customer Input ===============
+
+mutation UpdateCusomer
+{
+  updateCustomer (input:
+  {
+    id:"2DDE0933-A372-4DE1-CC26-08D8D3FAA4E5"
+    displayName:"Beyond Key Systems"
+    name:"Beyond Key Solutions"
+    status:ACTIVE
+    mainPhone:"9158876543"
+    webSite:"www.indore.com"
+    billingAddress :
+   {
+     id:"AEE48930-3B90-4445-872B-08D8D3FAA4F7"
+     address1:"Agra"
+     address2:"MP"
+     city:"Indore"
+     country:"India"
+     state:"World"
+     status:ACTIVE
+   }
+
+  })
+  {
+    customer
+    {
+      id
+      name
+      displayName
+    }
+  }
+}
+  
+	
+  
+==========Delete Customer Input===============
+mutation DeleteRecords
+{
+  deleteCustomer(input:
+  {
+id:  "212126551e1f49db463808d8d3d271eb"
+  })
+  {
+    msg
+  }
+}
+
+=========== Where Clause Customer Input ============
+
+query {
+  customers(where : {
+    or : {
+      status : {
+        eq :INCOMPLETE
+      }
+    }
+  }) {
+    name
+    displayName
+    webSite
+    createdBy {
+      companyName
+      dateOfBirth
+    }
+    billingAddress
+    {
+      address1
+      address2
+    }
+    mainAddress
+    {
+      address1
+      city
+      country
+      zipCode
+    }
+  }
+}
+
+=================================
+query
+{
+  customers(where:{
+    and:[{
+      created:{
+        gte:"2021-05-19"
+      }
+    },{
+      created:{
+        lte:"2021-05-20"
+      }
+    }
+    ]
+  })
+  {
+    totalCount
+    nodes
+    {
+      id
+      name
+      displayName
+      created
+    }
+  }
+}
+
+==============Order by clause Input ==============
+query
+{
+  customers(order:{
+    name : DESC
+  })
+  {
+    name
+    displayName
+    billingAddress
+    {
+      city
+      country
+      address1
+    }
+  }
+}
+
+query
+{
+  customers(first:2 order:{
+    name:DESC
+  }){
+    nodes
+    {
+      name
+      displayName
+      id
+      
+
+    }
+  }
+}
+===============Check if Already Exists ==============
+
+
+
+
+===========Contract Input ==========================
+
+mutation
+{
+ addContract(input:{
+   customerId:12
+   name:"5 Year Contract"
+   description:"Contract for Developer"
+   startDate:"2021-02-03 13:16:04.623"
+   endDate:"2021-02-03 13:16:04.623"
+   
+   attachments :
+    [
+    {
+     url:"www.Stack.com/image/from.png"
+     fileName:"From"
+    },{
+     url:"www.OverFlow.com/image/from.png"
+     fileName:"asdads"
+    }
+    ]
+    contractDetails :
+      [
+        {
+      productId :3,
+      pricePerUnit:100.00,
+      quantity:10.00
+    },{
+      productId :4,
+      pricePerUnit:100.00,
+      quantity:10.00
+    } ]
+ })
+ {
+   contract
+   {
+     name
+     id
+   }
+ } 
+}
+
+==========Contract Update Input ===========================
+
+mutation
+{
+ updateContract(input:{
+   id:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+   customerId:"DD7E0E14-3685-4507-87A9-6E5C7621F115"
+   name:"2 Year Contract"
+   description:"3 Year Contract"
+   startDate:"2021-02-03 13:16:04.623"
+   endDate:"2021-02-03 13:16:04.623"
+   
+   status:ACTIVE
+
+contractDetails:
+[
+  {
+      id:"09DA3B2F-D9F2-4693-F6A0-08D8D4C191F7"
+      contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+      productId :"D0A53BB2-2166-EB11-9889-501AC541FFDF",
+      pricePerUnit:200.00,
+      quantity:5.00
+    },
+ {
+      id:"65C854DC-F662-4E51-F6A1-08D8D4C191F7"
+      contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+      productId :"99F1C21B-2266-EB11-9889-501AC541FFDF",
+      pricePerUnit:150.00,
+      quantity:7.00
+    } 
+]
+
+   attachments :
+    [
+    {
+      id:"1F56F9B1-A5FB-4DC6-0A8E-08D8D4C191F5"
+     url:"www.ERT.com/image/from.png"
+     fileName:"YOU WE"
+     contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+    },{
+      id:"81D17CA2-95D8-45D9-0A8F-08D8D4C191F5"
+     url:"www.asdas.com/image/from.png"
+     fileName:"try Hello"
+     contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+    },{
+      id:null
+     url:"www.ping.com/image/from.png"
+     fileName:"Finish Hello"
+     contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+    }
+    ] 
+    
+ })
+ {
+   contract
+   {
+     name
+     id
+   }
+ } 
+}
+
+======================== Contract Delete Decords =======================
+
+mutation
+{
+  deleteContract(input:{
+    id:"D70E147F-7543-4F3D-4996-08D8D495945F"
+  })
+  {
+    msg
+  }
+}
+
+====================================================================
+
+query
+{
+  contractsByCustomerId(customerid :"DEE94543-1DD1-411E-7894-08D8D3C9A0A6")  {
+    name
+    startDate
+    endDate
+    created
+  }
+}
+
+
+==================================
+
+query
+{
+  contracts
+  {
+    nodes
+    {
+
+    
+    name
+    startDate
+    endDate
+    created
+    createdBy{
+      companyName
+      familyName
+    }
+    attachments
+    {
+      id
+      contractId
+      url
+      fileName
+    }
+    contractDetails
+    {
+      id
+      contractId
+      pricePerUnit
+      quantity
+      productId
+    }
+    }
+  }
+}
+
+
+
+=================================================Add Contacts===========================================================================================
+
+mutation Hekkiw
+{
+  addContact(input:
+  {
+name:"Pramit"
+email :"pramit@gmail.com"
+officePhone:"9158876961"
+mobilePhone:"07362-260212"
+isUser:true
+isAdministrator:true
+customerId:"2DDE0933-A372-4DE1-CC26-08D8D3FAA4E5"
+contactUserType:BILLING
+contactMethod:MOBILE
+  })
+  {
+    contact
+    {
+      id
+      name
+    }
+  }
+}
+
+
+=================================================Get Contacts===========================================================================================
+
+query
+{
+  contactsByCustomerId(customerid:"2DDE0933-A372-4DE1-CC26-08D8D3FAA4E5")
+  {
+    totalCount
+    nodes
+    {
+      id
+      email
+      mobilePhone
+      officePhone
+      isAdministrator
+      isUser
+      contactMethod
+      contactUserType
+      created
+    }
+    
+  }
+}
+=================================Update Contacts========================================================================================================	
+mutation UpdateContacts
+{
+  updateContact(input:{
+    id:"9D0F488D-3501-43FE-12F5-08D8D7445154"
+    email:"Sourabh@gmail.com"
+    name:"Sourabh"
+    contactUserType:BILLING
+    contactMethod:MOBILE
+    status:ACTIVE
+    officePhone:"9090909090"
+    mobilePhone:"8888888888"
+    isUser:true
+    isAdministrator:true
+  })
+  {
+    contact
+    {
+      id
+      name
+      email
+    }
+  }
+}
+
+
+============================Query where with Multiple parameters =========================================================================================
+query {
+  students(where: { OR: [{ lastName: "Bar" }, { lastName: "Baz" }] }) {
+    firstMidName
+    lastName
+    enrollments {
+      course {
+        title
+      }
+    }
+  }
+}
+
+=======================================
+
+query {
+  students(where: { lastName: "Bar" }) {
+    firstMidName
+    lastName
+    enrollments(where: { courseId: 1 }) {
+      courseId
+      course {
+        title
+      }
+    }
+  }
+}
+
+======================================================================================
+
+query {
+  students(first: 1) {
+    nodes {
+      lastName
+    }
+  }
+}
+
+==============================================
+query
+{
+  contacts(first:2 last:1)
+  {
+    nodes
+    {
+      customerId
+      id
+      email
+      isAdministrator
+    }
+    pageInfo
+    {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+  }
+}
+
+https://chillicream.com/blog/2020/03/18/entity-framework
+
+===========================
+query {
+  students(first: 1, after: "eyJfX3RvdGFsQ291bnQiOjMsIl9fcG9zaXRpb24iOjB9") {
+    nodes {
+      lastName
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}
+
+==================Get Contract by Id========================
+query
+{
+  contracts(where:{
+    or:{
+      id:{
+        eq:"865becec-a311-4e45-5ad0-08d8d4d3916a"
+      }
+    }
+  })  {
+
+    nodes
+    {
+    id
+    customerId
+    name
+    description
+    startDate
+    endDate
+    created
+    attachements
+    {
+      fileName
+      url
+    }
+    contractDetail
+    {
+      id
+      contractId
+      pricePerUnit
+      quantity
+      
+    }
+    }
+  }
+}
+
+
+================================= Add Region ====================================================================================
+
+mutation
+{
+ addRegion(input:{
+   customerId:"DEE94543-1DD1-411E-7894-08D8D3C9A0A6"
+   name:"5 Year Contract"
+ })
+ {
+   region
+   {
+     id
+     customerId
+     na
+     status
+     created
+   }
+ } 
+}
+
+=============================== Update Region ===================================================================================
+
+mutation
+{
+ updateRegion(input:{
+   id:"3fb70e60-1e3a-45bb-df40-08d8d9472cca"
+   regionName:"Region Updated"
+   status:ACTIVE
+ })
+ {
+   region
+   {
+     id
+     customerId
+     regionName
+     status
+     created
+   }
+ } 
+}
+
+
+============================ Delete Region =======================================================================================
+
+mutation
+{
+  deleteRegion(input:{
+    id:"55a145e1-fcc7-4129-0992-08d8d948af0a"
+  })
+  {
+    msg
+  }
+}
+
+
+===================================================== Get Region ============================================================
+
+query
+{
+  regions(order:{
+    created:DESC
+  })
+  {
+    pageInfo
+    {
+      startCursor
+      endCursor
+      hasNextPage
+      hasPreviousPage
+    }
+    totalCount
+    nodes
+    {
+      id
+      customerId
+      regionName
+      status
+      created
+    }
+  }
+}
+
+=================================================== Get Companies ============================================================
+query
+{
+  company
+  {
+    nodes
+    {
+      id
+      
+      logo
+      name
+    }
+  }
+}
+
+================================================= Add Companies ============================================================
+
+mutation addCompanies
+{
+  addCompany(input:
+  {
+    logo:"www.google.com/logo.png",
+    name:"Solution Tech"
+  })
+  {
+    companies
+    {
+      id
+      logo
+      name
+      created
+      
+    }
+  }
+}
+
+
+============================================= Update Companies ==========================================================
+
+mutation UpdateCompanies
+{
+  updateCompanies (input:{
+    id:"4a3d2820-bf78-4c56-7ed7-08d8dc768a64"
+    companyLogo:"www.google.com/tiny.com"
+    companyName:"Solution Pvt. Ltd."
+  }){
+    companies
+    {
+      id
+      companyLogo
+      companyName
+      customerId
+    }
+  }
+}
+
+
+================================================== Add Location =====================================================================
+
+mutation Hekkiw
+{
+  addLocation(input:
+  {
+locationName:"MP Region"
+locationDisplayName :"MP Region"
+region:"3FB70E60-1E3A-45BB-DF40-08D8D9472CCA"
+timeZone:"GMT"
+
+companyId:"8422C1B1-537E-40E8-DBED-08D8E79E7FA7"
+address:"Vijay Square "
+customerId:"2DDE0933-A372-4DE1-CC26-08D8D3FAA4E5"
+country:"India"
+state:"Maharastra"
+city:"Mumbai"
+zipCode:"465441"
+geoJson : "{\"type\":\"FeatureCollection\",\"features\": [            {\"type\":\"Feature\",\"properties\": {\"_azureMapsShapeId\":\"9d75a7d7-2645-4675-8c91-b4601976dcc6\"            },\"id\":\"9d75a7d7-2645-4675-8c91-b4601976dcc6\",\"geometry\": {\"type\":\"Polygon\",\"coordinates\": [                  [                    [-73.98235, 40.76799],                    [-73.95785, 40.80044],                    [-73.94928, 40.7968],                    [-73.97317, 40.76437],                    [-73.98235, 40.76799]                  ]                ]              }            }          ]        }"
+  })
+  {
+    location
+    {
+      id
+      customerId
+      companyName
+      locationName
+      locationDisplayName
+      regionId
+      geoJson
+    }
+  }
+}
+
+============================================== Update Location ===================================================================
+
+mutation Hekkiw
+{
+  updateLocation(input:
+  {
+    id:"fa96119b-eb04-4767-7dae-08d8e8619d20"
+locationName:"South-East"
+locationDisplayName :"South East Complex"
+region:"B180F65C-0CAD-4131-A626-08D8E7AB3997"
+  })
+  {
+    location
+    {
+      id
+      customerId
+      companyName
+      locationName
+      locationDisplayName
+      regionName
+      regionId
+    }
+  }
+}
+
+===================================================== Get Location =================================================================
+
+query
+{
+  locations(first:2)
+  {
+    nodes
+    {
+      companyName
+      locationDisplayName
+      locationName
+      timeZone
+      latitude
+      longitute
+      country
+      state
+      city
+      zipCode
+    }
+    pageInfo
+    {
+      endCursor
+      hasNextPage
+      hasPreviousPage
+      startCursor
+    }
+  }
+}
+
+
+
+=================================== User Error ===============================================================
+
+mutation
+{
+ addRegion(input:{
+   customerId:"DEE94543-1DD1-411E-7894-08D8D3C9A0A6"
+   name:"Nnew rfegiona"
+ })
+ {
+   region
+   {
+     id
+     customerId
+     name
+     status
+     created
+   }
+   message {
+      message
+      code  
+    }
+ } 
+}
+========================================== query for multiple or with  and condition with or Operator ==================================================
+query {
+customers(where: {
+or: [{
+name: {
+contains: "Pvt"
+},
+displayName: {
+contains: "sdf"
+}
+}]
+}) {
+nodes {
+id
+displayName
+name
+status
+}
+}
+}
+================================================ Query for multiple or with or condition =============================================================
+
+query
+{
+  customers(where:{
+    or:[{
+        displayName :{
+        contains :"CA"
+       }      
+      },{
+       name :{
+         contains:"asd"
+       }
+      }
+    ]
+    
+  }) {
+nodes
+{
+  name
+  displayName
+}
+  }
+}
+
+query
+{
+  customers(where:{
+    or:[{
+        created :{
+        eq :"2021-04-27T04:46:58.533"
+       }      
+      },{
+       created :{
+         eq:"2021-04-27T04:46:58.533"
+       }
+      }
+    ]
+    
+  }) {
+nodes
+{
+  name
+  displayName
+  created
+}
+  }
+}
+
+query
+{
+  locations(where:{
+    or:[{
+        companyId :{
+        eq :"4A3D2820-BF78-4C56-7ED7-08D8DC768A64"
+       }      
+      },{
+       companyId :{
+         eq:"E12AB1DE-F304-4C6E-DDFA-08D8DD44647D"
+       }
+      }
+    ], and :{
+      status:{
+        eq:ACTIVE
+      }}
+ }) {
+nodes
+{
+  companyName
+  status
+}
+  }
+}
+
+=================================================  Add Device ============================================================================
+
+mutation
+{
+  addDevice(input:{
+   locationId:"C3F46179-5FAF-44BF-333B-08D8DCA9B0ED"
+customerId :"2DDE0933-A372-4DE1-CC26-08D8D3FAA4E5"
+carrierId:"B6F478EA-3F6F-EB11-9889-501AC541FFDF"
+configurationId:"71244426-416F-EB11-9889-501AC541FFDF"
+manufacturerId:"701781D5-416F-EB11-9889-501AC541FFDF"
+modelId:"A0960C55-426F-EB11-9889-501AC541FFDF"
+firmwareId:"1C931605-436F-EB11-9889-501AC541FFDF"
+modemFirmwareId:"6010BB70-436F-EB11-9889-501AC541FFDF"
+deviceStatus:"469A48C8-DC38-4E6F-842C-02453B020659"
+contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+deviceDetail:[{
+  serial:"00124"
+  deviceId:"124"
+  iMEI:"asd"
+  iMSI:"asd"
+  sIM:"asd"
+  phoneNumber:"9035"
+},
+{serial:"00125"
+  deviceId:"125"
+  iMEI:"PQR"
+  iMSI:"PQR"
+  sIM:"PQR"
+  phoneNumber:"9035"
+}]
+  })
+  {
+message
+{
+  message
+  code
+}
+  }
+}
+
+========================================= Get Device dropDown ============================================
+query
+{
+  deviceCarrier
+  {
+    nodes
+    {
+      id
+      name
+    }
+  }
+  deviceConfig{
+    nodes
+    {
+      id
+      name
+    }
+  }
+}
+
+================================== Get Device ========================================================
+
+query
+{
+  devices(first:10)
+  {
+    nodes
+    {
+      id
+      customerId
+      contractId
+      contractName
+      deviceStatus
+      deviceStatusName
+      carrierName
+      configurationName
+      modelName
+      modemFirmwareName
+        serial
+        deviceId
+        sIM
+        iMEI
+        iMSI
+        phoneNumber
+      
+    }
+  }
+}
+
+
+================================ Update Device ====================================================
+
+mutation
+{
+  updateDevice(input:{
+    id:"E8F0A3ED-FC1D-42CE-08C1-08D8E1EBCA4B"
+    contractId:"E5DBA51D-AB18-4709-90BB-08D8D4C18DEB"
+    serial:"11111"
+    iMEI:"22222"
+    iMSI:"333333"
+    sIM:"9090"
+    phoneNumber:"3433434"
+    deviceId:"555"
+  })
+  {
+    devices
+    {
+      id
+      customerId
+      contractId
+      contractName
+      deviceStatus
+      deviceStatusName
+      carrierName
+      configurationName
+      modelName
+      modemFirmwareName
+        serial
+        deviceId
+        sIM
+        iMEI
+        iMSI
+        phoneNumber
+      
+    }
+    }
+    message
+    {
+      message
+      code
+    }
+  }
+}
+
+
+============================== Update Technician ===================================
+mutation{
+  updateTechnician(input:{
+    name:"Tech Name One"
+    id:"22db00e6-ce95-4431-9036-08d8e39519ac"
+  })
+  {
+    technician
+    {
+      id
+      name
+    }
+    
+  }
+  
+}
+
+========================== Added Technician =======================================
+mutation{
+  addTechnician(input:{
+    name:"Tech Name"
+  
+  })
+  {
+    technician
+    {
+      id
+      name
+    }
+    
+  }
+  
+}
+===============================  Get Technician ==================================
+
+query
+{
+  technician
+  {
+    nodes
+    {
+      id
+      name
+      created
+      status
+    }
+  }
+}
+
+======================= Repair Category ===================================
+
+mutation{
+  addRepairCategory(input:{
+    name:"Repair Name"
+  
+  })
+  {
+    repairCategory
+    {
+      id
+      name
+    }
+    
+  }
+  
+}
+
+===================== Update Repair Category ================================
+mutation{
+  updateRepairCategory(input:{
+    name:"Repair Name Updated"
+  id:"d742af9f-2f21-402e-f81c-08d8e395bccb"
+  })
+  {
+    repairCategory
+    {
+      id
+      name
+    }
+    
+  }
+  
+}
+======================== Get Repair Category =============================
+query
+{
+  repairCategory
+  {
+    nodes
+    {
+      id
+      name
+      status
+      created
+    }
+  }
+}
+========================================= Add Location Group======================================================================
+
+mutation
+{
+  addLocationGroup(input:{
+    name:"Location 36"
+    locationGroupDetail :
+      [
+        {
+          id:"73486EE1-02D2-4324-73CC-08D8E86417C1"
+        },
+         {
+          id:"F11146F0-2A67-472C-B7D0-08D8E47541FD"
+        }
+      
+      ],
+    
+    
+  })
+  {
+    locationGroup
+    {
+      id
+      name
+      locationGroupDetail
+      {
+        id
+        locationId
+        locationName
+        locationGroupId
+        status
+        created
+        
+      }
+    }
+  }
+}
+============================================= Update Location Group====================================================
+
+
+mutation
+{
+  updateLocationGroup(input:{
+    id:"3ca1a806-8357-4b08-cd9d-08d8ed262a0f"
+    
+    name:"Location 70"
+    locationGroupDetail :
+      [
+        {
+          id:"2F48F57E-A0D3-40A9-BAF5-08D8ED25282C"
+          locationId:"269D0E84-5CE7-4915-F70D-08D8E868D1F6"
+        },
+         {
+          locationId:"7BF5CC0E-1F0F-465F-F710-08D8E868D1F6"
+        }
+      
+      ],
+    
+    
+  })
+  {
+    locationGroup
+    {
+      id
+      name
+      locationGroupDetail
+      {
+        id
+        locationId
+        locationName
+        locationGroupId
+        status
+        created
+        
+      }
+    }
+  }
+}
+
+========================================= Get Location Group==============================================
+
+query
+{
+  locationGroup
+  {
+    nodes
+    {
+      id
+      name
+      locationGroupDetail
+      {
+        locationGroupId
+        locationId
+        locationName
+      }
+      created
+      modified
+    }
+  }
+}
+
+======================================== updateCustomerDataBaseCreation ===========================================
+
+'
+
+===================================== 
+subscription AddSuvs
+{
+  onCustomeDataBaseCreationUpdated
+  {
+    id
+    status
+    webSite
+    name
+    displayName
+    dataBaseCreatedDate
+    isDataBaseCreated
+  }
+}
+
+
+======================= User Profile Group =============================
+mutation
+{
+  addUserProfile(input:{
+    displayName:"Beyond"
+    givenName:"Key"
+    familyName:"Beyond Key131"
+    employeeCode:"EMP00201"
+    dob:"2021-02-03 13:16:04.623"
+    email:"test10@beyondkey.com"
+    phone:"9158876961"
+    userName:"BeyondKey2004"
+    password:"abcpassword"
+    isAdmin:true
+    role :
+    [
+      ADMINISTRATOR     
+    ]
+  })
+  {
+    userProfile
+    {
+      displayName
+      familyName
+      givenName
+      isAdmin
+      email
+      userName
+      
+      employeeCode
+      userType
+      created
+      id
+    }
+    message
+    {
+      message
+      code
+    }
+  }
+}
+
+mutation
+{
+  checkSighInNameExists(text:"sadasd")
+}
+
+//https://dqt-auth.azurewebsites.net/api/Users/checksigninname?username=BeyondKey276
+
+
+9-10-20
+ABCLogistics007
+
+
+D:\home\site\wwwroot\UploadFiles/
+
+[e0c37458-03bb-40f7-138b-08d90869aa55]
+
+
+
+
+
+DECLARE @sql NVARCHAR(max)=''
+SELECT @sql += ' Drop table ' + QUOTENAME(TABLE_SCHEMA) + '.'+ QUOTENAME(TABLE_NAME) + '; '
+FROM   INFORMATION_SCHEMA.TABLES
+WHERE  TABLE_TYPE = 'BASE TABLE'
+Exec Sp_executesql @sql
